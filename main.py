@@ -1,9 +1,9 @@
 class Teacher:
-    print('hello students')
+    print('hello mark')
 
 teacher_math = Teacher()
 
-class Students:
+class Student:
     print('hello teacher')
 
-students = Students()
+student_mark = Student()
