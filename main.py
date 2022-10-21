@@ -1,1 +1,4 @@
-print('hello world')
+class Student:
+    print('hi')
+
+print = Student()
