@@ -37,16 +37,18 @@ class Student:
         if self.progress < -0.5:
             print("Cast out…")
             self.alive = False
+            self.to_study()
+            self.gladness = 0
         elif self.gladness <= 0:
             print("Depression…")
             self.alive = False
         elif self.progress > 5:\
             print("Passed externally…")
             self.alive = False
+            self.to_chill
     def end_of_day(self):
         print("Gladness = {self.gladness}")
         print(f"Progress ={round(self.progress, 2)}")
-        self.money += 1
 
 def live(self, day):
     day = "Day" + str(day) + "of" +\
