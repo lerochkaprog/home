@@ -1,11 +1,8 @@
 import random
-class Teacher:
-    print('hello mark')
-
-teacher_math = Teacher()
 
 class Student:
     print('hello teacher')
+    self.money = 100
     def __init__(self):
         self.height = 175
         self.age = 14
@@ -21,8 +18,6 @@ class Student:
         self.progress = 0
         self.alive = True
 
-def to_money(self):
-
     def to_study(self):
             print("Time to study")
             self.progress += 0.12
@@ -32,9 +27,11 @@ def to_money(self):
          self.gladness += 3
 
     def to_chill(self):
-                    print("Rest time")
-                    self.gladness += 5
-                    self.progress -= 0.1
+        print("Rest time")
+        self.gladness += 5
+        self.progress -= 0.1
+        self.money -= 10
+
     def is_alive(self):
         if self.progress < -0.5:
             print("Cast out…")
@@ -48,6 +45,8 @@ def to_money(self):
     def end_of_day(self):
         print("Gladness = {self.gladness}")
         print(f"Progress ={round(self.progress, 2)}")
+        self.money += 1
+
 def live(self, day):
     day = "Day" + str(day) + "of" +\
     self.name + "life"
