@@ -19,9 +19,10 @@ class Student:
         self.alive = True
 
     def to_study(self):
-            print("Time to study")
-            self.progress += 0.12
-            self.gladness -= 5
+        print("Time to study")
+        self.progress += 0.12
+        self.gladness -= 5
+        self.money += 5
     def to_sleep(self):
          print("I will sleep")
          self.gladness += 3
