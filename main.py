@@ -27,6 +27,7 @@ class Student:
          print("I will sleep")
          self.gladness += 3
 
+
     def to_chill(self):
         print("Rest time")
         self.gladness += 5
